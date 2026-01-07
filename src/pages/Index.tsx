@@ -1,14 +1,30 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Navbar from "@/components/Portfolio/Navbar";
+import HeroSection from "@/components/Portfolio/HeroSection";
+import AboutSection from "@/components/Portfolio/AboutSection";
+import SkillsSection from "@/components/Portfolio/SkillsSection";
+import ProjectsSection from "@/components/Portfolio/ProjectsSection";
+import EducationSection from "@/components/Portfolio/EducationSection";
+import CTASection from "@/components/Portfolio/CTASection";
+import ContactSection from "@/components/Portfolio/ContactSection";
+import Footer from "@/components/Portfolio/Footer";
+import AnimatedBackground from "@/components/Portfolio/AnimatedBackground";
 
-const Index = () => {
+export default function Index() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <div className="relative overflow-hidden">
+      <AnimatedBackground />
+      
+      <div className="relative z-10">
+        <Navbar />
+        <HeroSection />
+        <AboutSection />
+        <SkillsSection />
+        <ProjectsSection />
+        <EducationSection />
+        <CTASection />
+        <ContactSection />
+        <Footer />
       </div>
     </div>
   );
-};
-
-export default Index;
+}
