@@ -29,8 +29,8 @@ export default function HeroSection() {
           </div>
         </div>
         
-        <h1 className="text-6xl md:text-8xl font-black mb-4 tracking-tight">
-          <span className="gradient-text">DHARSHINI V</span>
+        <h1 className="text-3xl md:text-4xl font-medium mb-4 tracking-wide">
+          <span className="text-[#FFCBA4]">DHARSHINI V</span>
         </h1>
         
         <div className="h-16 flex items-center justify-center mb-6">
