@@ -29,7 +29,7 @@ export default function HeroSection() {
           </div>
         </div>
         
-        <h1 className="text-3xl md:text-4xl font-medium mb-4 tracking-wide">
+        <h1 className="text-4xl md:text-5xl font-medium mb-4 tracking-wide">
           <span className="text-[#FFCBA4]">DHARSHINI V</span>
         </h1>
         
