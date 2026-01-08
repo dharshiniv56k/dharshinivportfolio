@@ -15,7 +15,7 @@ export default function Navbar() {
               className="w-full h-full object-cover"
             />
           </div>
-          <span className="text-lg font-bold gradient-text">
+          <span className="text-sm font-medium tracking-wide text-slate-300">
             DHARSHINI V
           </span>
         </div>
